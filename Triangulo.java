@@ -13,11 +13,11 @@ public class Triangulo {
             if (A < B + C && B < A + C && C < A + B) {
                 System.out.print("As medidas: " + A + ", " + B + ", " + C + " formam um triangulo");
                 if (A == B && A == C)
-                    System.out.print("Equilatero.\n");
+                    System.out.print(" Equilatero.\n");
                 else if (A == B || A == C || B == C)
-                    System.out.print("Isoceles.\n");
+                    System.out.print(" Isoceles.\n");
                 else
-                    System.out.print("Escaleno\n");
+                    System.out.print(" Escaleno\n");
             } else
                 System.out.print("As medidas " + A + ", " + B + ", " + C + " Não formam um triangulo!! ");
 
